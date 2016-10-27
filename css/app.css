@@ -183,3 +183,7 @@ a img {
 	text-align: center;
   	border-bottom: solid 0.1rem #eeeeee;
  }
+ 
+ .row {
+    padding-bottom:1rem; }
+ 
