@@ -46,7 +46,8 @@
 .menu > li > a {
 	display: block;
 	padding: 0.625rem 1rem;
-	line-height: 1; }
+	line-height: 1;
+	text-align:center; }
 .callout-intro {
 	color: #555555;
 	padding: 0 4rem 12rem 4rem; }
