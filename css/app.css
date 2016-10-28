@@ -113,6 +113,12 @@ a img {
   background-image:url(../images/Branding-thumb.jpg);
   background-position: center;
   background-size: cover; }
+  
+.cover-image-1 {
+  height: 20rem;
+  background-image:url(../images/bp-thumb.jpg);
+  background-position: center;
+  background-size: cover; }
 
 @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution: 1.5dppx) {
     .cover-image {
@@ -184,6 +190,11 @@ a img {
   	border-bottom: solid 0.1rem #eeeeee;
  }
  
- .row {
-    padding-bottom:1rem; }
+ .column {
+    padding-top:0.625rem;
+	padding-bottom:0.625rem; }
+@media screen and (min-width: 40em) {
+    .column, .columns {
+      padding-top: 0.9375rem;
+      padding-bottom: 0.9375rem;
  
