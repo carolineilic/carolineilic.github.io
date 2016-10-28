@@ -32,6 +32,13 @@
 	max-width:52rem;
 	margin: 0 auto; }
 	
+.wrap-grid {
+	margin: 0 auto; }	
+	
+@media screen and (max-width: 39.9375em) {
+.wrap-grid {
+	width: 90%;
+	padding-top: 1rem; }}
 	
 .menu .active > a {
 	color: #58a594;
@@ -48,18 +55,19 @@
 	padding: 0.625rem 1rem;
 	line-height: 1;
 	text-align:center; }
+	
 .callout-intro {
 	color: #555555;
-	padding: 0 4rem 12rem 4rem; }
+	padding: 0 4rem 5rem 4rem; }
 
 @media screen and (max-width: 39.9375em) {
 .callout-intro {
-	padding: 0 4rem 2rem 4rem;
+	padding: 0 1rem 0rem 1rem;
 	font-size:0.8rem; }}
 	
 .callout-caroline {
 	margin: 0 0 1rem 0;
-	padding: 6rem 2rem 0 2rem;
+	padding: 4rem 2rem 0 2rem;
 	border-radius: 0;
 	position: relative;
 	color: #555555;
@@ -191,10 +199,12 @@ a img {
  }
  
  .column {
-    padding-top:0.625rem;
-	padding-bottom:0.625rem; }
+    padding-top:0.3rem;
+	padding-bottom:0.3rem;
+	padding-left:0.3rem;
+	padding-right:0.3rem; }
 @media screen and (min-width: 40em) {
     .column, .columns {
-      padding-top: 0.9375rem;
-      padding-bottom: 0.9375rem;
+      padding-top: 0.3rem;
+      padding-bottom: 0.3rem; }}
  
