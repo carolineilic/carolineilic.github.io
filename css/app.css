@@ -6,14 +6,6 @@
 	padding-top: 1rem;
 	padding-bottom: 0.7rem;
 	color: #555555; }
-
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Playfair Display'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr9bm1CRw5vVFbIG7DatP53f3SWfE.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
 	
 .menu-mobile {
 	margin: 0;
@@ -41,6 +33,7 @@
 	margin: 0 auto; }
 	
 .wrap-grid {
+	width: 90%;
 	margin: 0 auto; }	
 	
 @media screen and (max-width: 39.9375em) {
@@ -87,7 +80,7 @@
 
 @media screen and (max-width: 39.9375em) {
 .callout-caroline {
-	font-size: 1.7rem;
+	font-size: 2rem;
 	padding: 1rem 1rem 0 1rem; }}
 
 .logo-column {
@@ -127,12 +120,12 @@ a img {
 	
 .cover-image {
   height: 30rem;
-  background-image:url(../images/photo-1447678523326-1360892abab8.jpg);
+  background-image:url(../images/fitness-thumbsmall.jpg);
   background-position: center;
   background-size: cover; }
 @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution: 1.5dppx) {
     .cover-image {
-        background-image:url(../images/photo-1447678523326-1360892abab8.jpg) }}
+        background-image:url(../images/fitness-thumbsmall.jpg) }}
 		
 .js-off-canvas-exit {
   display: none;
@@ -215,3 +208,33 @@ a img {
 	height: 100%;
 	padding: 0;
 	margin-top: 2rem; }
+	
+@media (-webkit-min-device-pixel-ratio:1.5), (min-resolution: 1.5dppx) {
+.hero{
+	margin-top: 1rem; }}
+	
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+  color: #0a0a0a;
+  background: #fefefe;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  
+.center-text p {
+	height: 15rem;
+	display: flex;
+	margin: 0;
+	justify-content: center;
+	flex-direction: column;
+	background:url(../images/fitness-thumbsmall.jpg);
+	background-position:center center;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+	color: #ffffff;
+	letter-spacing: 0.3rem;
+	font-size: 0.7rem;
+	font-weight:700; }
