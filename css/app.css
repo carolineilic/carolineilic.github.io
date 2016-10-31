@@ -72,8 +72,9 @@
 	position: relative;
 	color: #555555;
 	text-align: center;
-	font-size: 4rem;
+	font-size: 3rem;
 	font-weight: 600;
+	display:inline-block;
 	font-family: 'Playfair Display', serif; }
 
 @media screen and (max-width: 39.9375em) {
@@ -88,7 +89,6 @@
 	padding-right: 0.625rem;
 	padding-top: 2rem;
 	padding-bottom: 2rem; }
-
 
 .logo-column-mobile {
 	text-align: left;
@@ -118,7 +118,7 @@ a img {
 	text-align:center; }}
 	
 .cover-image {
-  height: 20rem;
+  height: 30rem;
   background-image:url(../images/photo-1447678523326-1360892abab8.jpg);
   background-position: center;
   background-size: cover; }
