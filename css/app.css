@@ -69,6 +69,18 @@
 	padding: 0 1rem 0rem 1rem;
 	font-size:0.8rem; }}
 	
+.callout-intro-mobile {
+	color: #555555;
+	padding: 0 4rem 2rem 4rem; }
+	.callout-intro a {
+	text-decoration: underline;
+	color: #58a594; }
+@media screen and (max-width: 39.9375em) {
+.callout-intro-mobile {
+	padding: 0 1rem 0rem 1rem;
+	font-size:0.8rem; }}
+
+
 .callout-caroline {
 	margin: 0 0 1rem 0;
 	padding: 4rem 2rem 0 2rem;
@@ -110,6 +122,12 @@ a:hover, a:focus {
 a img {
 	border: 0; }
 
+.project-info {
+	padding: 0 2rem 2rem 2rem;
+	font-size: 0.8rem;
+	color:#aaaaaa;
+	text-align:center; }
+
 .footer {
 	padding: 6rem 6rem 6rem 6rem;
 	font-size: 0.8rem;
@@ -118,7 +136,7 @@ a img {
 
 @media screen and (max-width: 39.9375em) {
 .footer {
-	padding: 0 0 0 0;
+	padding: 2rem 2rem 2rem 2rem;
 	text-align:center; }}
 	
 .cover-image {
@@ -215,6 +233,11 @@ a img {
 @media (-webkit-min-device-pixel-ratio:1.5), (min-resolution: 1.5dppx) {
 .hero{
 	margin-top: 1rem; }}
+	
+.hero-option { 
+	width: 100%;
+	height: 100%;
+	padding: 0; }
 	
 body {
   padding: 0;
