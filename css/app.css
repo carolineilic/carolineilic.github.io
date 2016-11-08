@@ -147,7 +147,8 @@ a img {
 	padding: 6rem 6rem 6rem 6rem;
 	font-size: 0.8rem;
 	color:#555555;
-	text-align:center; }
+	text-align:center;
+	background:#eeeeee; }
 
 @media screen and (max-width: 39.9375em) {
 .footer {
@@ -363,3 +364,16 @@ body {
 	color: #FFFFFF;
 	padding: 0.5rem 1rem 0.5rem 1rem;
 	text-align:center; }
+	
+.profile-pic {
+	width: 80%;
+	margin: 1rem auto;
+	}
+	
+.about-text {
+	padding: 2rem 5rem 2rem 5rem;
+	color:#555555;	text-align:center; }
+@media screen and (max-width: 39.9375em) {
+.about-text {
+	font-size: 0.8rem;
+	padding: 1.5rem 1.5rem 1.5rem 1.5rem; }}
