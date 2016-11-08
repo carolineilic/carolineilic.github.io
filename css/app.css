@@ -136,6 +136,8 @@ a img {
 	padding: 1rem 2rem 2rem 2rem; } }
 	
 .project-text {
+	max-width: 52rem;
+	margin:0 auto;
 	padding: 5rem 5rem 5rem 5rem;
 	color:#555555;	text-align:center; }
 @media screen and (max-width: 39.9375em) {
