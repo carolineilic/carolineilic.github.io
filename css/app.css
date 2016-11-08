@@ -12,8 +12,8 @@
 	list-style-type: none;
 	letter-spacing: 0.3rem;
 	font-size: 0.7rem;
-	line-height: 2rem;
-	padding: 1rem 2rem 2rem 2rem; }
+	line-height: 3rem;
+	padding: 2rem 2rem 2rem 2rem; }
 	
 .menu-mobile .active > a {
 	color: #58a594;
@@ -101,10 +101,13 @@
 .logo-column {
 	width: 100%;
 	text-align: center;
-	padding-left: 0.625rem;
-	padding-right: 0.625rem;
-	padding-top: 2rem;
-	padding-bottom: 2rem; }
+	padding: 2rem 0.625rem 2rem 0.625rem; }
+	
+@media screen and (max-width: 39.9375em) {
+.logo-column img {
+	max-width: 70px;
+	text-align: center;
+	padding: 0; }}
 
 .logo-column-mobile {
 	text-align: left;
@@ -335,3 +338,19 @@ body {
   transition-delay: 0.1s; }
 .overlay-fade-in-new-background:hover .button {
   transition-delay: 0.2s; }
+  
+#back-top {
+  position: fixed;
+  bottom:2%;
+  right: 2%;
+  z-index: 200; }
+  
+.back-top a {
+	margin: 0;
+	list-style-type: none;
+	font-size: 0.7rem;
+	line-height: 1rem;
+	background: rgba(0, 0, 0, 0.3);
+	color: #FFFFFF;
+	padding: 0.5rem 1rem 0.5rem 1rem;
+	text-align:center; }
