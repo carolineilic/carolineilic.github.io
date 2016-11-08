@@ -55,6 +55,11 @@
         <em>All videos created in Adobe After Effects CC</em> </div>
         
         
+        <!-- the caroline back-to-top -->
+        <div class="back-top" id="back-top">
+  <a href="#">BACK TO TOP</a>
+</div>
+
         
         
         <!-- the caroline footer -->
@@ -69,5 +74,32 @@
 <script src="js/vendor/what-input.js"></script> 
 <script src="js/vendor/foundation.js"></script> 
 <script src="js/app.js"></script>
+<script>
+$(document).ready(function(){
+
+  // hide #back-top first
+  $("#back-top").hide();
+
+  // fade in #back-top
+  $(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        $('#back-top').fadeIn();
+      } else {
+        $('#back-top').fadeOut();
+      }
+    });
+
+    // scroll body to 0px on click
+    $('#back-top .fi-arrow-up').click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+  });
+
+});
+</script>
 </body>
 </html>
