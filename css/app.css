@@ -151,7 +151,8 @@ a img {
 	font-size: 0.8rem;
 	color:#555555;
 	text-align:center;
-	background:#eeeeee; }
+	background:#eeeeee;
+	margin-top: 2rem; }
 
 @media screen and (max-width: 39.9375em) {
 .footer {
@@ -402,4 +403,4 @@ li.orbit-slide {
 }
 @media screen and (max-width: 39.9375em) {
 .orbit {
-	width: 90%; }}
+	width: 90ƒ%; }}
