@@ -139,11 +139,12 @@ a img {
 	max-width: 52rem;
 	margin:0 auto;
 	padding: 5rem 5rem 5rem 5rem;
-	color:#555555;	text-align:center; }
+	color:#555555;	text-align:center;
+	line-height: 1.5rem; }
 @media screen and (max-width: 39.9375em) {
 .project-text {
 	font-size: 0.8rem;
-	padding: 1.5rem 1.5rem 1.5rem 1.5rem; }}
+	padding: 3rem 1rem 2.5rem 1rem; }}
 
 .footer {
 	padding: 6rem 6rem 6rem 6rem;
@@ -382,3 +383,23 @@ body {
 .about-text {
 	font-size: 0.8rem;
 	padding: 1.5rem 3rem 1.5rem 3rem; }}
+	
+.orbit {
+  width: 80%;
+  margin:0 auto; }
+ 
+ul.orbit-container {
+    height: auto !important;
+}
+li.orbit-slide {
+    max-height: none !important;
+}
+
+.orbit {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+@media screen and (max-width: 39.9375em) {
+.orbit {
+	width: 90%; }}
