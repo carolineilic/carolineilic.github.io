@@ -424,3 +424,5 @@ li.orbit-slide {
     padding-bottom: 56.25%; }
   .flex-video.vimeo {
     padding-top: 0; }
+
+.orbit-timer { display:none; }
