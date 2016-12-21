@@ -59,7 +59,9 @@
 	
 .callout-intro {
 	color: #555555;
-	padding: 0 4rem 5rem 4rem; }
+	padding: 0 4rem 5rem 4rem;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-weight: 200; }
 	.callout-intro a {
 	text-decoration: underline;
 	color: #58a594; }
@@ -71,7 +73,11 @@
 	
 .callout-intro-mobile {
 	color: #555555;
-	padding: 0 4rem 2rem 4rem; }
+	padding: 0 4rem 2rem 4rem;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	line-height: 1.5;
+	font-size: 1rem; }
 	.callout-intro a {
 	text-decoration: underline;
 	color: #58a594; }
@@ -145,6 +151,18 @@ a img {
 .project-text {
 	font-size: 0.8rem;
 	padding: 3rem 1rem 2.5rem 1rem; }}
+	
+.pres-text {
+	max-width: 52rem;
+	margin:0 auto;
+	padding: 5rem 5rem 1rem 5rem;
+	color:#555555;	text-align:center;
+	line-height: 1.5rem; }
+@media screen and (max-width: 39.9375em) {
+.pres-text {
+	font-size: 0.8rem;
+	padding: 3rem 1rem 1rem 1rem; }}
+
 
 .footer {
 	padding: 6rem 6rem 6rem 6rem;
