@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--[if IE 9]>
+<html class="lt-ie10" lang="en" >
+<![endif]-->
+<html class="no-js" lang="en" dir="ltr">
+<head>
+<link rel="shortcut icon" href="http://carolineilic.github.io/favicon.ico" type="image/x-icon" />
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link data-fontset-id="ce-fontset" href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic,900,900italic|Montserrat:400,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caroline Ilic | Designer | Branding</title>
+<link rel="stylesheet" href="css/foundation.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+<!-- the caroline mobile nav  -->
+<div class="off-canvas-wrapper">
+  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+      <div>
+        <div class="row">
+          <div class="logo-column-mobile"> <img src="images/logoci.png" width="50px"> </div>
+        </div>
+        <ul class="menu-mobile vertical">
+          <li class="active"><a href="https://carolineilic.github.io">PORTFOLIO</a></li>
+          <li><a href="https://carolineilic.github.io/about">ABOUT</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="off-canvas-content" data-off-canvas-content>
+      <div> 
+        
+        <!-- the caroline header -->
+        <div class="logo-column"> <img src="images/logoci.png"> </div>
+        
+        <!-- the caroline nav  -->
+        <div class="menu-centered wrap hide-for-small-only">
+          <ul class="menu">
+            <li class="active"><a href="https://carolineilic.github.io">PORTFOLIO</a></li>
+            <li><a href="https://carolineilic.github.io/about">ABOUT</a></li>
+          </ul>
+        </div>
+        <div class="mobile-button wrap hide-for-medium hide-for-large">
+          <button class="menu-icon" type="button" data-toggle="offCanvas"></button>
+        </div>
+                
+        <!-- the caroline intro -->
+        <div class="callout-caroline">Stationery</div>
+        <div class="callout-intro-mobile text-center wrap">Stationery design and development for Big W - S/S and A/W 2018.</div>
+        
+        <div class="project-info">
+        <em>Design & Product Development</em> </div>
+        
+        
+        <!-- the caroline hero -->
+        
+        <section class="wrap-grid">
+        <div class="hero-option">
+        <img src="images/stationery-1.jpg">
+        </div>
+        
+         <div class="project-text">
+        Playing with botanical themes and adding touches of blush and brassy gold foil.</div>
+        
+        <div class="hero-option">
+        <img src="images/stationery-2.jpg">
+        </div>
+      
+        
+        <div class="hero">
+        <img src="images/stationery-5.jpg">
+        </div>
+        
+        <div class="hero">
+        <img src="images/stationery-4.jpg">
+        </div>
+        
+        <div class="hero">
+        <img src="images/stationery-6.jpg">
+        </div>
+        <div class="hero">
+        <img src="images/stationery-3.jpg">
+        </div>
+       
+        <div class="hero">
+        <img src="images/stationery-7.jpg">
+        </div>
+       
+        </section>
+        
+        
+      <!-- the caroline back-to-top -->
+        <div class="back-top" id="back-top">
+  <a href="#">BACK TO TOP</a>
+</div>
+
+        
+        
+        <!-- the caroline footer -->
+        <footer class="footer">
+          <div class="wrap"> Caroline Ilic // <a href="mailto:carolineilic@outlook.com.au">carolineilic@outlook.com.au</a> // +61413352656</div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/vendor/jquery.js"></script> 
+<script src="js/vendor/what-input.js"></script> 
+<script src="js/vendor/foundation.js"></script> 
+<script src="js/app.js"></script>
+<script>
+$(document).ready(function(){
+
+  // hide #back-top first
+  $("#back-top").hide();
+
+  // fade in #back-top
+  $(function () {
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        $('#back-top').fadeIn();
+      } else {
+        $('#back-top').fadeOut();
+      }
+    });
+
+    // scroll body to 0px on click
+    $('#back-top .fi-arrow-up').click(function () {
+      $('body,html').animate({
+        scrollTop: 0
+      }, 800);
+      return false;
+    });
+  });
+
+});
+</script>
+</body>
+</html>
